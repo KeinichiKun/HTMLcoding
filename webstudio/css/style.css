@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1110px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: #fff;
+  background-color: #4985ff;
+  padding: 15px 40px;
+  border-radius: 30px;
+}
+
+.h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 52.66px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  color: #000;
+}
+
+.h-dark {
+  color: #323232;
+}
+
+.h-light {
+  color: #fff;
+}
+
+.p-main {
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 25.36px;
+}
+
+.blue-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: underline;
+  color: #4985ff;
+}
+
+.p-small {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.19px;
+}
+
+.grey {
+  color: #999;
+}
+
+/* Header */
+
+.header {
+  background: url("../img/bg-hero.jpg") center center no-repeat transparent;
+  background-size: cover;
+  height: 1000px;
+}
+
+.nav {
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+}
+
+.is-active {
+  border-bottom: 2px solid #fff;
+}
+
+.container-nav {
+  border-bottom: 1px solid #a1a1a1;
+}
+/* Hero */
+
+.hero {
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.hero-itstudio {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  color: #fff;
+}
+
+.hero-main-heading {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 64.36px;
+  color: #fff;
+}
+
+/* Services */
+
+.services-container {
+  height: 700px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.services-heading {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
+
+.section-services-description {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  width: 65%;
+}
+
+.section-services-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.section-services-item {
+  display: flex;
+  align-items: center;
+  width: 313px;
+}
+
+.section-services-img {
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.section-services-list-p {
+  text-align: start;
+}
+
+.services-list-heading {
+  text-align: start;
+}
+
+/* About Us */
+
+.about {
+  background: #f6f6f6;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.section-about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-about-left {
+  width: 45%;
+}
+
+.section-about-heading {
+  margin-bottom: 35px;
+}
+
+.section-about-description {
+  margin-bottom: 30px;
+}
+
+.blue-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: underline;
+  color: #4985ff;
+}
+
+.section-about-img {
+  width: 100%;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px #999;
+}
+
+.line {
+  display: block;
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 90px;
+  margin-bottom: 75px;
+}
+
+.section-about-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.class-about-numbericon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-about-us-number {
+  display: block;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1;
+  color: #000;
+}
+
+/* All Services */
+
+.all-services {
+  background-color: #5929ca;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #5929ca 50%, #ffffff 50%);
+}
+
+.section-all-services-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.all-services-heading {
+  width: 50%;
+}
+
+.section-all-services-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-all-services-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.section-all-services-img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.all-services-number {
+  color: #4985ff;
+}
+
+.section-all-services-list-heading {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.section-all-services-list-description {
+  margin-bottom: 35px;
+}
+
+/* All Projects */
+.all-projects-container {
+  text-align: center;
+}
+
+.section-all-projects-heading {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.section-all-projects-description {
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+
+.section-all-projects-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.section-all-projects-img {
+  border-radius: 10px;
+}
+
+.section-all-projects-btn {
+  margin-bottom: 130px;
+}
+
+/* Footer */
+.footer {
+  background: #f6f6f8;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-heading {
+  margin-top: 76px;
+}
+
+.footer-link {
+  display: block;
+  cursor: pointer;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.footer-line {
+  margin-top: 65px;
+  margin-bottom: 30px;
+}
+
+.footer-copyrights {
+  text-align: center;
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.footer-icon {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 15px;
+  background-size: contain;
+}
+
+.footer-icon-arrow {
+  background: url("../img/right-arrow.svg");
+}
+
+.footer-icon-mail {
+  background: url("../img/mail.svg");
+  width: 15px;
+  height: 13px;
+  transform: translateY(2px);
+}
+
+.footer-icon-call {
+  background: url("../img/call.svg");
+  width: 15px;
+  height: 15px;
+  transform: translateY(2px);
+}
+
+.footer-icon-placeholder {
+  background: url("../img/placeholder.svg");
+  width: 15px;
+  height: 15px;
+  transform: translateY(2px);
+}
